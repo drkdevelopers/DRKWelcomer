@@ -1,0 +1,15 @@
+# ===================================
+# DRKWelcomer Configuration
+# ===================================
+
+join-message:
+  enabled: true
+  message: "&8[&a+&8] &fWelcome &b%player% &fto the server!"
+
+first-join:
+  enabled: true
+  message: "&6🎉 %player% joined the server for the first time!"
+
+quit-message:
+  enabled: false
+  message: "&8[&c-&8] &f%player% left the server."

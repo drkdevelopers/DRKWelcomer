@@ -1,0 +1,17 @@
+name: DRKWelcomer
+version: 1.0.0
+main: me.thedarksky.welcomer.DRKWelcomer
+api-version: "1.21"
+author: TheDarkSky
+description: A lightweight welcome plugin for Paper.
+
+commands:
+  drkwelcomer:
+    description: Reload the plugin configuration.
+    usage: /drkwelcomer reload
+    permission: drkwelcomer.reload
+
+permissions:
+  drkwelcomer.reload:
+    description: Allows reloading DRKWelcomer.
+    default: op
